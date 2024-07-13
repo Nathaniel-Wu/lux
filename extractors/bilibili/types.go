@@ -16,9 +16,8 @@ type bangumiEpData struct {
 	Aid         int    `json:"aid"`
 	Cid         int    `json:"cid"`
 	BVid        string `json:"bvid"`
-	ID          int    `json:"id"`
 	EpID        int    `json:"ep_id"`
-	TitleFormat string `json:"titleFormat"`
+	TitleFormat string `json:"title"`
 	LongTitle   string `json:"long_title"`
 }
 
